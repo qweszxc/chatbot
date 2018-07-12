@@ -1,0 +1,1194 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "end": 10,
+            "start": 7,
+            "entity": "cost"
+          }
+        ],
+        "text": "帮我查一下我的住院费"
+      },
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "end": 10,
+            "start": 7,
+            "entity": "cost"
+          }
+        ],
+        "text": "帮我查一下我的住院费需要多少"
+      },
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "end": 12,
+            "start": 9,
+            "entity": "cost"
+          }
+        ],
+        "text": "帮我查一下我一个月住院费是多少"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 8,
+            "start": 6,
+            "entity": "time"
+          }
+        ],
+        "text": "帮我查一下我今天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 8,
+            "start": 6,
+            "entity": "time"
+          }
+        ],
+        "text": "帮我看一下我今天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 8,
+            "start": 6,
+            "entity": "time"
+          }
+        ],
+        "text": "帮我查一下我明天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天我该吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天我需要吃什么药"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 6,
+            "start": 4,
+            "entity": "time"
+          },
+          {
+            "value": "下午三点",
+            "end": 10,
+            "start": 6,
+            "entity": "hour"
+          },
+          {
+            "value": "钟南山",
+            "end": 13,
+            "start": 10,
+            "entity": "name"
+          }
+        ],
+        "text": "帮我预约明天下午三点钟南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 4,
+            "start": 2,
+            "entity": "time"
+          },
+          {
+            "value": "下午三点",
+            "end": 8,
+            "start": 4,
+            "entity": "hour"
+          },
+          {
+            "value": "钟南山",
+            "end": 11,
+            "start": 8,
+            "entity": "name"
+          }
+        ],
+        "text": "预约明天下午三点钟南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "下午三点",
+            "end": 8,
+            "start": 4,
+            "entity": "hour"
+          },
+          {
+            "value": "钟南山",
+            "end": 11,
+            "start": 8,
+            "entity": "name"
+          }
+        ],
+        "text": "预约今天下午三点钟南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "下午三点",
+            "end": 6,
+            "start": 2,
+            "entity": "hour"
+          },
+          {
+            "value": "钟南山",
+            "end": 9,
+            "start": 6,
+            "entity": "name"
+          }
+        ],
+        "text": "今天下午三点钟南山医生有空吗"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "钟南山",
+            "end": 7,
+            "start": 4,
+            "entity": "name"
+          }
+        ],
+        "text": "帮我预约钟南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "钟南山",
+            "end": 5,
+            "start": 2,
+            "entity": "name"
+          }
+        ],
+        "text": "预约钟南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [],
+        "text": "预约南山医生"
+      },
+      {
+        "intent": "book",
+        "entities": [
+          {
+            "value": "钟南山",
+            "end": 3,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "钟南山医生有空吗"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "钟南山",
+            "end": 3,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "钟南山"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "陈胜",
+            "end": 2,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "陈胜"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "吴广",
+            "end": 2,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "吴广"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "张飞",
+            "end": 2,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "张飞"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "李小龙",
+            "end": 3,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "李小龙"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "王俊凯",
+            "end": 3,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "王俊凯"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "赵云",
+            "end": 2,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "赵云"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "刘备",
+            "end": 2,
+            "start": 0,
+            "entity": "name"
+          }
+        ],
+        "text": "刘备"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "12345678987",
+            "end": 11,
+            "start": 0,
+            "entity": "phone"
+          }
+        ],
+        "text": "12345678987"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "23456789876",
+            "end": 11,
+            "start": 0,
+            "entity": "phone"
+          }
+        ],
+        "text": "23456789876"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "有什么医生推荐的"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "哪个医生好"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "有什么医生"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "什么医生有空"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "我不知道该找哪个医生"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [],
+        "text": "我该找哪个医生"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [
+          {
+            "value": "感冒",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "感冒找哪个医生好"
+      },
+      {
+        "intent": "doctor_recommend",
+        "entities": [
+          {
+            "value": "胃痛",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "胃痛该看哪个医生"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "妇科",
+            "end": 2,
+            "start": 0,
+            "entity": "department"
+          }
+        ],
+        "text": "妇科"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "儿科",
+            "end": 2,
+            "start": 0,
+            "entity": "department"
+          }
+        ],
+        "text": "儿科"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "口腔科",
+            "end": 3,
+            "start": 0,
+            "entity": "department"
+          }
+        ],
+        "text": "口腔科"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "骨科",
+            "end": 2,
+            "start": 0,
+            "entity": "department"
+          }
+        ],
+        "text": "骨科"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "感冒",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "感冒"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "发烧",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "发烧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "流鼻涕",
+            "end": 3,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "流鼻涕"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "胃痛",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "胃痛"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "骨折",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "骨折"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "腰痛",
+            "end": 2,
+            "start": 0,
+            "entity": "disease"
+          }
+        ],
+        "text": "腰痛"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "头痛",
+            "end": 5,
+            "start": 3,
+            "entity": "disease"
+          }
+        ],
+        "text": "我有点头痛"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "头晕",
+            "end": 5,
+            "start": 3,
+            "entity": "disease"
+          }
+        ],
+        "text": "我有点头晕"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "下午三点",
+            "end": 6,
+            "start": 2,
+            "entity": "hour"
+          }
+        ],
+        "text": "明天下午三点"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "上午十点",
+            "end": 6,
+            "start": 2,
+            "entity": "hour"
+          }
+        ],
+        "text": "今天上午十点"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "下午两点",
+            "end": 4,
+            "start": 0,
+            "entity": "hour"
+          }
+        ],
+        "text": "下午两点"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "上午九点",
+            "end": 4,
+            "start": 0,
+            "entity": "hour"
+          }
+        ],
+        "text": "上午九点"
+      },
+      {
+        "intent": "register",
+        "entities": [],
+        "text": "帮我挂号"
+      },
+      {
+        "intent": "register",
+        "entities": [],
+        "text": "挂号"
+      },
+      {
+        "intent": "register",
+        "entities": [],
+        "text": "我想挂号"
+      },
+      {
+        "intent": "register",
+        "entities": [],
+        "text": "我想挂个号"
+      },
+      {
+        "intent": "register",
+        "entities": [],
+        "text": "挂个号"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "明天"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "昨天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "昨天"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "上个月",
+            "end": 3,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "上个月"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "这个月",
+            "end": 3,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "这个月"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "下个月",
+            "end": 3,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "下个月"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "广州",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "今天广州的天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "北京",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "今天北京的天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "上海",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "今天上海的天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "深圳",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "今天深圳的天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "广州",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "明天广州的天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "广州",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "明天广州天气如何"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "广州",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "明天广州温度多少"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          },
+          {
+            "value": "广州",
+            "end": 4,
+            "start": 2,
+            "entity": "location"
+          }
+        ],
+        "text": "今天广州多少度"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天多少度"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天天气怎么样"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天会不会下雨"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "明天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "明天有没有雨"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [
+          {
+            "value": "今天",
+            "end": 2,
+            "start": 0,
+            "entity": "time"
+          }
+        ],
+        "text": "今天气温多少度"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [],
+        "text": "气温多少度"
+      },
+      {
+        "intent": "weather_search",
+        "entities": [],
+        "text": "会不会下雨"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "广州",
+            "end": 2,
+            "start": 0,
+            "entity": "location"
+          }
+        ],
+        "text": "广州"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "北京",
+            "end": 2,
+            "start": 0,
+            "entity": "location"
+          }
+        ],
+        "text": "北京"
+      },
+      {
+        "intent": "confirm",
+        "entities": [
+          {
+            "value": "上海",
+            "end": 2,
+            "start": 0,
+            "entity": "location"
+          }
+        ],
+        "text": "上海"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您好"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您好吗"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "喂"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你是谁"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你是哪个"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "啊"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "很高兴和你说话"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "可以的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "中中"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "中"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "办吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "办理吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "行的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "恩"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "嗯"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不要"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不需要"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不要办"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不办"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "暂时不要了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不是"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "有问题"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "我再考虑考虑"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不好啦"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不行"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不可以的"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不中"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不可以"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "没了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "没有了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "好的没了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "好不用了"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢您"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢啊"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢了"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

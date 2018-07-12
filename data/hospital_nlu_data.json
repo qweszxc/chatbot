@@ -1,0 +1,426 @@
+{
+  "rasa_nlu_data": {
+    "entity_synonyms": [],
+    "regex_features": [],
+    "common_examples": [
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "entity": "cost",
+            "end": 10,
+            "start": 7
+          }
+        ],
+        "text": "帮我查一下我的住院费"
+      },
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "entity": "cost",
+            "end": 10,
+            "start": 7
+          }
+        ],
+        "text": "帮我查一下我的住院费需要多少"
+      },
+      {
+        "intent": "cost_search",
+        "entities": [
+          {
+            "value": "住院费",
+            "entity": "cost",
+            "end": 12,
+            "start": 9
+          }
+        ],
+        "text": "帮我查一下我一个月住院费是多少"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "entity": "time",
+            "end": 8,
+            "start": 6
+          }
+        ],
+        "text": "帮我查一下我今天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "entity": "time",
+            "end": 8,
+            "start": 6
+          }
+        ],
+        "text": "帮我看一下我今天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "明天",
+            "entity": "time",
+            "end": 8,
+            "start": 6
+          }
+        ],
+        "text": "帮我查一下我明天要吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "entity": "time",
+            "end": 2,
+            "start": 0
+          }
+        ],
+        "text": "今天我该吃什么药"
+      },
+      {
+        "intent": "medicine_search",
+        "entities": [
+          {
+            "value": "今天",
+            "entity": "time",
+            "end": 2,
+            "start": 0
+          }
+        ],
+        "text": "今天我需要吃什么药"
+      },
+      {
+        "intent": "cannot_eat_food_search",
+        "entities": [],
+        "text": "帮我查一下我不能吃什么"
+      },
+      {
+        "intent": "cannot_eat_food_search",
+        "entities": [],
+        "text": "什么食物我不能吃"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "西瓜",
+            "entity": "food",
+            "end": 6,
+            "start": 4
+          }
+        ],
+        "text": "我可以吃西瓜吗"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "香蕉",
+            "entity": "food",
+            "end": 6,
+            "start": 4
+          }
+        ],
+        "text": "我可以吃香蕉吗"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "辣",
+            "entity": "food",
+            "end": 5,
+            "start": 4
+          }
+        ],
+        "text": "我可以吃辣吗"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "生冷",
+            "entity": "food",
+            "end": 6,
+            "start": 4
+          }
+        ],
+        "text": "我可以吃生冷食物吗"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "西瓜",
+            "entity": "food",
+            "end": 2,
+            "start": 0
+          }
+        ],
+        "text": "西瓜可以吃吗"
+      },
+      {
+        "intent": "food_confirm",
+        "entities": [
+          {
+            "value": "香蕉",
+            "entity": "food",
+            "end": 2,
+            "start": 0
+          }
+        ],
+        "text": "香蕉可以吃吗"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你好"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您好"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您好吗"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "嗨"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "喂"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你是谁"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "您是"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "你是哪个"
+      },
+      {
+        "intent": "greet",
+        "entities": [],
+        "text": "啊"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "再见"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "拜拜"
+      },
+      {
+        "intent": "goodbye",
+        "entities": [],
+        "text": "很高兴和你说话"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "好的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "行"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "可以的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "中中"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "中"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "办吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "办理吧"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "行的"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "没问题"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "恩"
+      },
+      {
+        "intent": "confirm",
+        "entities": [],
+        "text": "嗯"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不要"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不需要"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不要办"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不办"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "暂时不要了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不是"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "有问题"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "我再考虑考虑"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不好啦"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不行"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不可以的"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不中"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不可以"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "没了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "没有了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "不用了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "暂时不用了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "好的没了"
+      },
+      {
+        "intent": "deny",
+        "entities": [],
+        "text": "好不用了"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢您"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢你"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "非常感谢"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢谢啊"
+      },
+      {
+        "intent": "thanks",
+        "entities": [],
+        "text": "谢了"
+      }
+    ]
+  }
+}
