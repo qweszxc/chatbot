@@ -1,7 +1,7 @@
 import json
 
 
-with open("data/hospital_raw_data.txt",'r', encoding='UTF-8') as f, open("data/train_file_new.json", "w") as f2:
+with open("data/hospital_raw_data.txt",'r', encoding='UTF-8') as f, open("data/train_file_new.json", "w",encoding=='UTF-8') as f2:
     train_set = {}
     train_set["rasa_nlu_data"] = {}
     train_set["rasa_nlu_data"]["common_examples"] = []
