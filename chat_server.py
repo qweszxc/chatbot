@@ -7,9 +7,9 @@ import json
 app = Flask(__name__)
 model_directory = ".//models//ivr//demo"
 interpreter = Interpreter.load(model_directory)
-pool = redis.ConnectionPool(host='120.79.80.186', port=6381)
+pool = redis.ConnectionPool(host='', port=)
 r = redis.Redis(connection_pool=pool)
-db = pymysql.connect("120.79.154.149", "root", "zhaozhiwen030609", "hospital")
+db = pymysql.connect("ip", "user", "password", "database")
 cursor = db.cursor()
 
 
